@@ -1,0 +1,45 @@
+:root {
+    --bib-primary: #14532d;
+    --bib-primary-soft: #e8f5ec;
+    --bib-accent: #b45309;
+    --bib-bg: #f7f4ee;
+}
+
+body {
+    background: radial-gradient(circle at top right, #fff, var(--bib-bg) 60%);
+    min-height: 100vh;
+}
+
+.title-main {
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #1f2937;
+}
+
+.btn-add {
+    background-color: var(--bib-primary);
+    border-color: var(--bib-primary);
+}
+
+.btn-add:hover {
+    background-color: #0f3f22;
+    border-color: #0f3f22;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+.card {
+    border-radius: 14px;
+}
+
+.badge {
+    font-size: 0.78rem;
+}
+
+@media (max-width: 768px) {
+    .title-main {
+        font-size: 1.4rem;
+    }
+}
